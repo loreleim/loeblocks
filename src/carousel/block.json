@@ -1,0 +1,24 @@
+{
+	"apiVersion": 2,
+	"name": "loeblocks/carousel",
+	"title": "Carousel Block",
+	"category": "widgets",
+	"icon": "images-alt",
+	"description": "Flickity Carousel Block",
+	"attributes": {
+		"header": {
+			"type": "string",
+			"default": "Enter text here..."
+		}, 
+		"mediaId": {
+			"type": "number"
+		},
+		"imageUrl": {
+			"type": "string"
+		}
+	},
+	"textdomain": "loeblocks",
+	"editorScript": "./build/index.js",
+	"editorStyle": "./build/index.css",
+	"style": "./build/style-index.css"
+}

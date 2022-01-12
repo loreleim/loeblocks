@@ -1,0 +1,29 @@
+{
+	"apiVersion": 2,
+	"name": "loeblocks/testimonials",
+	"title": "Testimonials Block",
+	"category": "widgets",
+	"icon": "admin-users",
+	"description": "Testimonials Block",
+	"attributes": {
+		"mediaId": {
+			"type": "number",
+			"default": 0
+		},
+		"imageUrl": {
+			"type": "string"
+		},
+		"quote": {
+			"type": "string",
+			"default": "This is the quote."
+		},
+		"attribution": {
+			"type": "string",
+			"default": "- Person Who Said It"
+		}
+	},
+	"textdomain": "loeblocks",
+	"editorScript": "./build/index.js",
+	"editorStyle": "./build/index.css",
+	"style": "./build/style-index.css"
+}
